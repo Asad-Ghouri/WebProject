@@ -42,7 +42,7 @@
     }
   
     .menu-icon {
-      display: block;
+      display: none;
     }
   
     .mobile-menu {
@@ -61,3 +61,8 @@
     }
   }
   
+  @media (max-width:600px){
+    .navcontainer{
+      width: auto;
+    }
+  }

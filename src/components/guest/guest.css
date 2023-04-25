@@ -40,3 +40,10 @@
     }
 
 }
+
+@media (max-width:600px){
+    .guestimg {
+        width: 90%;
+        margin-left: 5%;
+    }
+}

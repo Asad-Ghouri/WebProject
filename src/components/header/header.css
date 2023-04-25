@@ -104,3 +104,24 @@
 .optioncounterbutton:disabled{
     cursor: not-allowed;
 }
+
+@media (max-width:600px){
+    .headerlist {
+        display: flex;
+        gap: 19px;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .headerbtn{
+        margin: auto;
+    }
+    .headersearch{
+        height: 84px;
+        bottom: -46px;
+        flex-wrap: wrap;
+    }
+    .headersearchitemdate{
+        margin-left: -17px;
+    }
+}

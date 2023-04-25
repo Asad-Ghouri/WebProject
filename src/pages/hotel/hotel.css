@@ -267,3 +267,19 @@
         height: 60vh;
     }
 }
+@media (max-width:600px){
+    .hotelimage {
+        width: 80%;
+    }
+    .book{
+        position: static;
+    }
+    .hoteltitle{
+        margin: auto;
+    }
+    .hoteldesc{
+        text-align: justify;
+    width: 90%;
+    margin-left: 5%;
+    }
+}

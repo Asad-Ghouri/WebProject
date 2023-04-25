@@ -80,3 +80,31 @@
     width: 100%;
     font-weight: 800;
 }
+
+@media (max-width:600px){
+    .listwrapper {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .searchtitle {
+        font-size: 10px;
+     }
+     .searchitem img{
+        width: 30%;
+     }
+     .searchdesc{
+        flex: 0 2;
+     }
+     .searchsubtitle {
+        font-size: 9px;
+     }
+     .searchcancel {
+        font-size: 10px;
+     }
+     .searchitem{
+        flex-wrap: wrap;
+     }
+     .searchdetailtext{
+        text-align: left;
+     }
+}

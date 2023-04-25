@@ -39,3 +39,29 @@
     width: 400px;
     height: 400px;
 }
+
+.talk ul li{
+    text-align: left;
+}
+
+.aicontainer {
+    display: flex;
+    margin-top: 0px;
+    padding-top: 14px;
+    background: #26266e;
+    padding-bottom: 12px;
+    height: 90vh;
+}
+@media (max-width:600px){
+    .aiwrapper {
+        flex-wrap: wrap;
+    }
+    .smalltalk{
+        width: 90%;
+    }
+    .aicontainer {
+        height: auto;
+    }
+  }
+
+  
