@@ -1,0 +1,63 @@
+.navbar{
+    height: 50px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+}
+.navcontainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: 500;
+}
+.navbutton{
+    margin-left: 20px;
+    padding: 10px ;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 800;
+    border: 2px solid white;
+}
+.navitems {
+    display: flex;
+  }
+  
+  @media screen and (max-width: 1030px) {
+    .navitems {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 365px;
+        top: 68px;
+        height: max-content;
+        z-index: 1;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .mobile-menu {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 1030px) {
+    .navitems {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .menu-icon {
+      display: none;
+    }
+  }
+  
