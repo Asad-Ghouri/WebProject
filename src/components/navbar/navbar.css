@@ -42,7 +42,7 @@
     }
   
     .menu-icon {
-      display: none;
+      display: block;
     }
   
     .mobile-menu {
@@ -56,9 +56,9 @@
       flex-direction: row;
     }
   
-    .menu-icon {
+    /* .menu-icon {
       display: none;
-    }
+    } */
   }
   
   @media (max-width:600px){
